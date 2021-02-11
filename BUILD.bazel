@@ -1,0 +1,13 @@
+
+
+# load("@bazel_toolchains//rules:environments.bzl", "clang_env")
+# load("@bazel_toolchains//rules:rbe_repo.bzl", "rbe_autoconfig")
+# load("//tools/platforms:toolchain_config_suite_spec.bzl", "DEFAULT_TOOLCHAIN_CONFIG_SUITE_SPEC")
+
+# rbe_autoconfig(
+#     name = "rbe_default",
+#     env = clang_env(),
+#     export_configs = True,
+#     toolchain_config_suite_spec = DEFAULT_TOOLCHAIN_CONFIG_SUITE_SPEC,
+#     use_legacy_platform_definition = False,
+# )
